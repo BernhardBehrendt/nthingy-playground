@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SensorDataService } from './src/app/services/sensor-data.service';
+import { SensorDataService } from './services/sensor-data.service';
 
 @Component({
   selector: 'app-root',

@@ -1,0 +1,10 @@
+<button *ngIf="!temperature" (click)="connect()" type="button">Connect</button>
+<button *ngIf="!!temperature" (click)="disconnect()" type="button">Disconnect</button>
+<h1 *ngIf="!!temperature">{{temperature}}°</h1>
+
+<pre>{{rawdata|json}}</pre>
+
+<app-visualization></app-visualization>
+
+
+<router-outlet></router-outlet>

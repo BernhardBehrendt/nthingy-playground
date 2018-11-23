@@ -1,0 +1,26 @@
+:host {
+  background-color: #000;
+  display: grid;
+
+  width: 100vw;
+  height: 100vh;
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 7fr;
+}
+
+.controls {
+  background-color: #ccc;
+}
+
+.visualization {
+  background-color: #333;
+
+  .item {
+    transition: all 1.25s;
+    width: 10px;
+    height: 10px;
+
+    background-color: #0f0;
+  }
+}
